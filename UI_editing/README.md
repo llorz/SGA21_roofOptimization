@@ -1,16 +1,30 @@
-# User Interfaces for Roof Image Annotations
-We designed a GUI with two modes to specify the roof topology shown in an input image, from which we can construct a consistent 3D planar roofs.
-
-## Mode 1: annotate the primal roof graph
-The user can annotate the **primal graph** of the roof by labeling all the vertices in the roof and then labeling each face by clicking the annotated vertices to form a polygon (i.e., in either clockwise or counter-clockwise order). 
-
-<p align="center">
-  <img align="center"  src="../figs/ui_mode1.png" width="800">
-</p>
-
-## Mode 2: annotate the dual roof graph
-The user can label the **dual graph** of the roof. Specifically, the user needs to first annotate the outline vertices in either the clockwise or counter-clockwise order to form an outline polygon. The **center** of the each outline edge is automatically computed afterwards for selection in the next step. Then the user is asked to specify the face adjacency in the dual graph: if two faces are adjacent to each other, the user can simply click the two centers of the outline edges of the corresponding faces. 
+# Matlab User Interfaces for Interactive Editing
+We also implemented two Matlab UIs for roof reconstruction and interactive editing. 
+## Roof Reconstruction
+- See ```ImageReconstruction.mlapp```
+- The user first select an image from a folder, then annotate the **primal graph** of the roof on top of the image
+- Then press the "Roof Optimization" button, a reconstructed 3D planar roof (building) is shown on the right
+- The user can change the roof height and the building height, the building will be udpated accordingly.
 
 <p align="center">
-  <img align="center"  src="../figs/ui_mode2.png" width="800">
+  <img align="center"  src="../figs/ui_matlab_recon.png" width="800">
 </p>
+
+## Interactive Roof Editing
+- See ```RoofEditting.mlapp```
+- The user can load the image and the pre-computed roof embedding (e.g., from straighted skeleton based methods)
+- The user can modify or correct the 2D roof embedding directly, then the 3D embedding will be updated immediately (locally, i.e., only the smallest affected region will be updated)
+- Currently, we support the following editing operations:
+  - *snap an edge*
+  - *move vertex/edge*
+  - *merge two faces into a single one*
+  - *split a face*
+  - *force two faces to be adjacent...*
+
+<p align="center">
+  <img align="center"  src="../figs/ui_matlab_edit.png" width="800">
+</p>
+
+## Comments
+- The two UIs work well with Matlab 2018b (MacOs), but does not work with Matlab 2019b (windows), sorry if it does not work for you 😂
+- If the UIs do not work, perhaps you can check the Matlab script ```test/test_edit.m```, which includes all the important functions/operations that invovle in the UIs.
