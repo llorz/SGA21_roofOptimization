@@ -1,16 +1,39 @@
-# User Interfaces for Roof Image Annotations
-We designed a GUI with two modes to specify the roof topology shown in an input image, from which we can construct a consistent 3D planar roofs.
-
-## Mode 1: annotate the primal roof graph
-The user can annotate the **primal graph** of the roof by labeling all the vertices in the roof and then labeling each face by clicking the annotated vertices to form a polygon (i.e., in either clockwise or counter-clockwise order). 
-
+# Roof Synthesis from Scratch
 <p align="center">
-  <img align="center"  src="../figs/ui_mode1.png" width="800">
+  <img align="center"  src="../figs/roofsyn_overview.png" width="800">
 </p>
 
-## Mode 2: annotate the dual roof graph
-The user can label the **dual graph** of the roof. Specifically, the user needs to first annotate the outline vertices in either the clockwise or counter-clockwise order to form an outline polygon. The **center** of the each outline edge is automatically computed afterwards for selection in the next step. Then the user is asked to specify the face adjacency in the dual graph: if two faces are adjacent to each other, the user can simply click the two centers of the outline edges of the corresponding faces. 
+We propose a roof synthesis method based on our roof modeling formulation, which can generate 3D planar roofs (buildings) from scratch, as shown in the above image. Our solution consists of two main steps: (1) first generate a roof outline (a sequence of 2D vertex positions) using a transformer (2) predict the face adjacencies to form a dual roof graph. Once we get the dual graph of a roof, we can run our roof optimization to obtain a planar 3D roof. 
+
+## Step 1: roof outline generation
+<p align="center">
+  <img align="center"  src="../figs/roofsyn_transformer.png" width="800">
+</p>
+
+- We use a transformer (as shown above) to automatically generate a roof outline
+- ...
+- ...
+- Here we show some examples of automatically generated roof outlines:
 
 <p align="center">
-  <img align="center"  src="../figs/ui_mode2.png" width="800">
+  <img align="center"  src="../figs/roofsyn_outlines.png" width="800">
 </p>
+
+
+
+## Step 2: face adjacency prediction
+
+<p align="center">
+  <img align="center"  src="../figs/roofsyn_faceAdj.png" width="800">
+</p>
+
+- We use GCNs for face adjacency prediction (we show the building block of our GCNs in the above image)
+- ...
+- ...
+
+## Usage
+- You can find pre-trained model at ```blablabla.bla```
+- To generate a random roof outline, run ```blablabla.py```
+- To predict face adjacencies from given roof outline, run ```blablabla.py```
+- ...
+- ...
