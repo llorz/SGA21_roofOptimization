@@ -1,0 +1,2 @@
+/Users/renj/Applications/blender.app/Contents/MacOS/blender
+/Users/renj/Renj/Project/PROJ2020_roof_construction/func_python/
