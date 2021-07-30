@@ -1,4 +1,7 @@
 # Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis
+<p>
+<img align="center"  src="../figs/teaser.png" width="1000">
+</p>
 
 This is an example code for the paper "Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis",
 by [Jing Ren](https://ren-jing.com/), [Biao Zhang](http://1zb.github.io/), [Bojian Wu](https://bojianwu.github.io/), 
