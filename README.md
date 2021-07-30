@@ -14,13 +14,17 @@ We showcase two applications: (1) an interactive roof editing framework that can
 
 You can find more details at: [[paper]](), [[suppl. mat]](), [[suppl. video]](), [[slides]](), [[presentation video]]().
 
-## UIs for Image Annotation
+## Main Components
+- [UIs for Image Annotation](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_annotation): We provide two web-based UIs, which can be used for specifying roof topology in the uploaded images/drawings.
 
-## Roof Optimization
+- [Roof Optimization](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofOptimization)
 
-## Roof Dataset
+- [Roof Dataset](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofGraphDataset)
 
-## Application 01: Roof Interactive Editing
+- [Application 01: Roof Interactive Editing](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_editing)
 
-## Application 02: Roof Synthesis from Scratch
+- [Application 02: Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis)
 
+## Comments
+- Please let us know (jing.ren@kaust.edu.sa, biao.zhang@kaust.edu.sa) if you have any question regarding the algorithms/paper or you find any bugs in the code ԅ(¯﹃¯ԅ)
+- This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). For any commercial uses or derivatives, please contact us (jing.ren@kaust.edu.sa, peter.wonka@kaust.edu.sa, maks@lix.polytechnique.fr). [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
