@@ -17,13 +17,13 @@ You can find more details at: [[paper]](), [[suppl. mat]](), [[suppl. video]](),
 ## Main Components
 - [UIs for Image Annotation](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_annotation): We provide two web-based UIs, which can be used for specifying roof topology in the uploaded images/drawings.
 
-- [Roof Optimization](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofOptimization)
+- [Roof Optimization](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofOptimization): From the input (or automatically generated) roof graph, we optimize for a *valid 3D embedding* of the roof such that each 3D roof face is *planar*. In this step we can also incorporate different regularizers or aesthetic constraints into the optimization formulation. 
 
-- [Roof Dataset](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofGraphDataset)
+- [Roof Dataset](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofGraphDataset): We created a building-image paired dataset that contains more than 3K samples using our roof modeling tools. 
 
-- [Application 01: Roof Interactive Editing](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_editing)
+- [Application 01: Roof Interactive Editing](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_editing): Our optimization-based roof modeling formulation is compatible with different edits, including moving edges/vertices, snapping an edge, merging faces etc. 
 
-- [Application 02: Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis)
+- [Application 02: Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis): We also propose a generative model for roof synthesis from scratch.
 
 ## Comments
 - Please let us know (jing.ren@kaust.edu.sa, biao.zhang@kaust.edu.sa) if you have any question regarding the algorithms/paper or you find any bugs in the code ԅ(¯﹃¯ԅ)
