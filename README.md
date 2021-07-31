@@ -1,6 +1,6 @@
 # Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis
 <p>
-<img align="center"  src="../figs/teaser.png" width="1000">
+<img align="center"  src="./figs/teaser.png" width="1000">
 </p>
 
 This is an example code for the paper "Intuitive and Efficient Roof Modeling for Reconstruction and Synthesis",
