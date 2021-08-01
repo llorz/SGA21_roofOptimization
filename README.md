@@ -24,9 +24,9 @@ You can find more details at: [[paper]](), [[suppl. mat]](), [[suppl. video]](),
 
 - [Roof Dataset](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofGraphDataset): We created a building-image paired dataset that contains more than 3K samples using our roof modeling tools. 
 
-- [Application 01: Roof Interactive Editing](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_editing): Our optimization-based roof modeling formulation is compatible with different edits, including moving edges/vertices, snapping an edge, merging faces etc. 
+- [Application 01 - Roof Interactive Editing](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_editing): Our optimization-based roof modeling formulation is compatible with different edits, including moving edges/vertices, snapping an edge, merging faces etc. 
 
-- [Application 02: Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis): We also propose a generative model for roof synthesis from scratch.
+- [Application 02 - Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis): We also propose a generative model for roof synthesis from scratch.
 
 ## Comments
 - Please let us know (jing.ren@kaust.edu.sa, biao.zhang@kaust.edu.sa) if you have any question regarding the algorithms/paper or you find any bugs in the code ԅ(¯﹃¯ԅ)
