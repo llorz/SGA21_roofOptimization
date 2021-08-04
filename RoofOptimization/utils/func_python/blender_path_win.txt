@@ -1,2 +1,2 @@
-/Users/renj/Applications/blender.app/Contents/MacOS/blender
+/Users/xxxx/Applications/blender.app/Contents/MacOS/blender
 D:\Research\code_release\SGA21_roofOptimization\RoofOptimization\utils\func_python\
