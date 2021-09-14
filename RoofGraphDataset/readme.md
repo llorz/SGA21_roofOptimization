@@ -6,7 +6,7 @@
 
 - ```dt_roof_image/```: aerial images that contain planar roofs
 - ```dt_roof_label/```: the user annotations of the roof topology on the corresponding aerial images. 
-  - For each roof, we store the ```roofname.verts``` and ```roofname.faces'''
+  - For each roof, we store the ```roofname.verts``` and ```roofname.faces```
   - ```roofname.verts``` stores the 2D vertex positions of the roof vertices on the image (```dt_roof_image/roofname.jpg```)
   - ```roofname.faces``` stores the roof faces in row-wise, i.e., each row is a set of vertexIDs (0-based index)
   - These annotations can be noisy. For example, there exist duplicated vertices/faces, visually parallel outline edges are not parallel to each other during the annotation etc. 
