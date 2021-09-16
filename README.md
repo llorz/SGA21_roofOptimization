@@ -28,6 +28,11 @@ You can find more details at: [[paper]](), [[suppl. mat]](), [[suppl. video]](ht
 
 - [Application 02 - Roof Synthesis from Scratch](https://github.com/llorz/SGA21_roofOptimization/tree/main/RoofSynthesis): We also propose a generative model for roof synthesis from scratch.
 
+## Acknowledgement
+- The authors thank the anonymous reviewers for their valuable comments. 
+- Parts of this work were supported by the KAUST OSR Award No. CRG-2017-3426, the ERC Starting Grant No. 758800 (EXPROTEA), the ANR AI Chair AIGRETTE, and Alibaba Innovative Research (AIR) Program. 
+- We would like to thank _**Guangfan Pan**_ and _**Jiacheng Ren**_ for helping modeling roofs in 3ds Max and SketchUp, _**Jialin Zhu**_ for helping designing the web-based roof annotation UIs,  _**Jianhua Guo**_ and _**Tom Kelly**_ for helping with the comparison to the weighted straight skeleton. We thank _**Muxingzi Li**_ for helping editing the supplementary video. We also thank _**Chuyi Qiu**_, _**Tianyu He**_, and _**Ran Yi**_ for their valuable suggestions and comments.
+
 ## Comments
 - Please let us know (jing.ren@kaust.edu.sa, biao.zhang@kaust.edu.sa) if you have any question regarding the algorithms/paper or you find any bugs in the code ԅ(¯﹃¯ԅ)
 - This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). For any commercial uses or derivatives, please contact us (jing.ren@kaust.edu.sa, peter.wonka@kaust.edu.sa, maks@lix.polytechnique.fr). [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
