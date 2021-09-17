@@ -15,7 +15,7 @@ Our method uses a *graph* structure to encode roof topology and enforces the roo
 We showcase two applications: (1) an interactive roof editing framework that can be used for roof design or roof reconstruction from aerial images.
 (2) a generative model to synthesize new roof meshes from scratch.
 
-You can find more details at: [[paper]](), [[suppl. mat]](), [[suppl. video]](https://www.youtube.com/watch?v=MmyNTmV7lFM), [[slides]](), [[presentation video]]().
+You can find more details at: [[paper]](https://arxiv.org/abs/2109.07683) | [[suppl. video]](https://www.youtube.com/watch?v=MmyNTmV7lFM) | [[slides]]() | [[presentation video]]()
 
 ## Main Components
 - [UIs for Image Annotation](https://github.com/llorz/SGA21_roofOptimization/tree/main/UI_annotation): We provide two web-based UIs, which can be used for specifying roof topology in the uploaded images/drawings.
