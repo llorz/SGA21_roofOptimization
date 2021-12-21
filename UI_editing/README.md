@@ -26,5 +26,5 @@ We also implemented two Matlab UIs for roof reconstruction and interactive editi
 </p>
 
 ## Comments
-- The two UIs work well with Matlab 2018b (MacOs), but does not work with Matlab 2019b (windows), sorry if it does not work for you 😂
-- If the UIs do not work, perhaps you can check the Matlab script ```test/test_edit.m```, which includes all the important functions/operations that invovle in the UIs.
+- The two UIs work well with Matlab 2018b (MacOs), but do not work with Matlab 2019b (windows), sorry if it does not work for you 😂
+- If the UIs do not work, perhaps you can check the Matlab script ```test/test_edit.m```, which includes all the important functions/operations that are invovled in the UIs.
